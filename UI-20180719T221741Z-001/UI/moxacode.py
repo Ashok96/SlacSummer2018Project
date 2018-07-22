@@ -173,19 +173,7 @@ eof_err))
      def save_users(self):
           print(">>>>>>>>>>Saving the user profile after creating")
           self.write(ESC)
-          self.write(ESC
-                     
-                     
-                     
-                     
-                     
-                     
-                     
-                     
-                     
-                     
-                     
-                     )
+          self.write(ESC)
           self.write(YES)
           time.sleep(3)
           self.write(QUIT)
